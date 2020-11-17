@@ -1,0 +1,54 @@
+#maze {
+    border-style: inherit;
+
+  }
+  
+  .block {
+    float: left;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .wall {
+    background-color:#8B008B;
+  }
+  
+  .me {
+    position: relative;
+  }
+  
+  .me:after {
+    background-color: red;
+    border-radius: 100%;
+    content: '';
+    height: 20px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+  }
+  
+  .finish {
+    background-color:red;
+  }
+  
+  #complete {
+    display: none;
+    height: 360px;
+    left: 20%;
+    position: absolute;
+    right: 20%;
+    top: 50px;
+    width: 640px;
+    z-index: 1000;
+  }
+  
+  #complete img {
+    height: 100%;
+    width: 100%;
+
+  }
+.a{
+    background-color:green;
+}
+  
+  
